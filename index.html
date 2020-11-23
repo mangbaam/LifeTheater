@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>임시 타이틀</title>
+    
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <!-- 메뉴 -->
+    <nav class="navbar bg-dark navbar-inverse">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a href="index.html" class="navbar-brand">Logo</a>
+            </div>
+        
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="index.html">Home</a></li>
+                    <li><a href="notice.html">공지사항</a></li>
+                    <li><a href="balance.html">밸런스 게임</a></li>
+                    <li><a href="choice.html">선택해줘!!</a></li>
+                    <li><a href="dream.html">이상형 월드컵</a></li>
+                    <li><a href="free.html">자유로운 주제</a></li>
+                    <li><a href="secret.html">비밀스런 주제</a></li>
+                    <li><a href="survey.html">설문조사 해줘</a></li>
+                </ul>
+            
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#"><span class="glyphicon glyphicon-user"></span> Your Account </a></li>
+                    <li>
+                        <button type="button" class="btn btn-primary">
+                            Notifications <span class="badge badge-light">4</span>
+                        </button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+
+        <!-- 큰 제목 -->
+        <div class="jumbotron">
+            <div class="container text-center">
+                <h1 class="display-4">BCD</h1>
+                <p class="lead">"Life is C between B and D"</p>
+            </div>
+        </div>
+
+        <!-- 게시판 -->
+        <div id="boardField" class="container-fluid">
+            <div class="container">
+                <div class="col-sm-4">
+                    <a href="balance.html">
+                        <div class="panel panel-info">
+                            <div class="panel-heading" id="balanceGame">밸런스 게임</div>
+                            <!-- <div class="panel-body"><img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image"></div> -->
+                            <div class="panel-body">
+                                <ul class="recentPosts list-unstyled">
+                                    <div><a href="#"><li class="recentPost">test1 vs test1</li></a></div>
+                                    <div><a href="#"><li class="recentPost">test2 vs test2</li></a></div>
+                                    <div><a href="#"><li class="recentPost">test3 vs test3</li></a></div>
+                                    <div><a href="#"><li class="recentPost">test4 vs test4</li></a></div>
+                                    <div><a href="#"><li class="recentPost">test5 vs test5</li></a></div>
+                                </ul>
+                            </div>
+                            <div class="panel-footer">기발한 밸런스 게임을 제시해보세요</div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-sm-4">
+                    <a href="choice.html">
+                        <div class="panel panel-info" id="choiceOne">
+                            <div class="panel-heading">선택해줘!!</div>
+                            <div class="panel-body"><img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image"></div>
+                            <div class="panel-footer">선택장애 극복을 도와주세요</div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-sm-4">
+                    <a href="dream.html">
+                        <div class="panel panel-info" id="dreamGirlMan">
+                            <div class="panel-heading">이상형 월드컵</div>
+                            <div class="panel-body"><img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image"></div>
+                            <div class="panel-footer">당신의 취향은?</div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="container">
+                <div class="col-sm-4">
+                    <a href="free.html">
+                        <div class="panel panel-info" id="freePage">
+                            <div class="panel-heading">자유로운 주제</div>
+                            <div class="panel-body"><img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image"></div>
+                            <div class="panel-footer">자유로운 주제로 얘기해보아요</div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-sm-4">
+                    <a href="secret.html">
+                        <div class="panel panel-info" id="secretPage">
+                            <div class="panel-heading">비밀스런 주제</div>
+                            <div class="panel-body"><img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image"></div>
+                            <div class="panel-footer">비밀스런 주제로 얘기해보아요</div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-sm-4">
+                    <a href="survey.html">
+                        <div class="panel panel-info" id="survey">
+                            <div class="panel-heading">설문조사 해줘!!</div>
+                            <div class="panel-body"><img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image"></div>
+                            <div class="panel-footer">여러분의 의견을 들려주세요</div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br><br>
+    <footer class="container-fluid text-center">
+        <p>Made by 15054021 박명범</p>
+    </footer>
+</body>
+</html>
